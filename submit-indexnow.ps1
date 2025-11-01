@@ -2,7 +2,7 @@
 # Submits all documentation URLs to IndexNow for instant Bing indexing
 
 $apiKey = "5d2c9dee7ace4423aa41ce43cefd82ff"
-$host = "laughing-loop.github.io"
+$hostName = "laughing-loop.github.io"
 $keyLocation = "https://laughing-loop.github.io/vClean-Docs/5d2c9dee7ace4423aa41ce43cefd82ff.txt"
 
 $urlList = @(
@@ -15,7 +15,7 @@ $urlList = @(
 )
 
 $body = @{
-    host = $host
+    host = $hostName
     key = $apiKey
     keyLocation = $keyLocation
     urlList = $urlList
