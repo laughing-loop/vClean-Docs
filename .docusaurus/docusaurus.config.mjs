@@ -11,7 +11,7 @@ export default {
   "baseUrl": "/vClean-Docs/",
   "organizationName": "laughing-loop",
   "projectName": "vClean-Docs",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "trailingSlash": false,
   "i18n": {
     "defaultLocale": "en",

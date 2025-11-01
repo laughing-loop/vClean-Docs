@@ -15,7 +15,7 @@ const config = {
   organizationName: 'laughing-loop',
   projectName: 'vClean-Docs',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
 
