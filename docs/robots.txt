@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://laughing-loop.github.io/vClean-Docs/sitemap.xml
