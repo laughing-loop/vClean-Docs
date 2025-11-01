@@ -1,0 +1,211 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "17896441": [
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "0480b142": [
+      70
+    ],
+    "0e384e19": [
+      976
+    ],
+    "1a25ec0b": [
+      672
+    ],
+    "580ad000": [
+      173
+    ],
+    "5e95c892": [
+      647
+    ],
+    "72e14192": [
+      814
+    ],
+    "9d9f8394": [
+      13
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "f9e23376": [
+      840
+    ],
+    "styles": [
+      48,
+      354,
+      401,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "13": {
+      "js": [
+        {
+          "file": "assets/js/9d9f8394.7325c8a1.js",
+          "hash": "68427efb7ff04692",
+          "publicPath": "/vClean-Docs/assets/js/9d9f8394.7325c8a1.js"
+        }
+      ]
+    },
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.090d7047.js",
+          "hash": "6d5c898819bcc896",
+          "publicPath": "/vClean-Docs/assets/js/a94703ab.090d7047.js"
+        }
+      ]
+    },
+    "70": {
+      "js": [
+        {
+          "file": "assets/js/0480b142.646603fd.js",
+          "hash": "ec2d3fceefaebb59",
+          "publicPath": "/vClean-Docs/assets/js/0480b142.646603fd.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.9d639a3c.js",
+          "hash": "f51699f874b5a6db",
+          "publicPath": "/vClean-Docs/assets/js/a7bd4aaa.9d639a3c.js"
+        }
+      ]
+    },
+    "173": {
+      "js": [
+        {
+          "file": "assets/js/580ad000.1b52b9ec.js",
+          "hash": "f490461ee8b5b061",
+          "publicPath": "/vClean-Docs/assets/js/580ad000.1b52b9ec.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.770e8022.js",
+          "hash": "7c3b95ca5a964ef5",
+          "publicPath": "/vClean-Docs/assets/js/237.770e8022.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.e35120a2.js",
+          "hash": "e07e8a4a14c54700",
+          "publicPath": "/vClean-Docs/assets/js/runtime~main.e35120a2.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.a086acac.js",
+          "hash": "23f7b9f4ce8135b1",
+          "publicPath": "/vClean-Docs/assets/js/17896441.a086acac.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.db9312bb.js",
+          "hash": "890e91cee4f6b093",
+          "publicPath": "/vClean-Docs/assets/js/5e95c892.db9312bb.js"
+        }
+      ]
+    },
+    "672": {
+      "js": [
+        {
+          "file": "assets/js/1a25ec0b.2437b437.js",
+          "hash": "c4f98da43a329dd1",
+          "publicPath": "/vClean-Docs/assets/js/1a25ec0b.2437b437.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.78c1a164.js",
+          "hash": "393f655ae837a8be",
+          "publicPath": "/vClean-Docs/assets/js/aba21aa0.78c1a164.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.36c75c0e.js",
+          "hash": "4b5f9b51525a1288",
+          "publicPath": "/vClean-Docs/assets/js/main.36c75c0e.js"
+        }
+      ]
+    },
+    "814": {
+      "js": [
+        {
+          "file": "assets/js/72e14192.2a13068e.js",
+          "hash": "09fa031a0c073344",
+          "publicPath": "/vClean-Docs/assets/js/72e14192.2a13068e.js"
+        }
+      ]
+    },
+    "840": {
+      "js": [
+        {
+          "file": "assets/js/f9e23376.10aac98a.js",
+          "hash": "cf1601168dda411d",
+          "publicPath": "/vClean-Docs/assets/js/f9e23376.10aac98a.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.2c1a2eab.css",
+          "hash": "89e69738211a0952",
+          "publicPath": "/vClean-Docs/assets/css/styles.2c1a2eab.css"
+        }
+      ]
+    },
+    "976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.7a339d7f.js",
+          "hash": "ec07ec0a5793abfe",
+          "publicPath": "/vClean-Docs/assets/js/0e384e19.7a339d7f.js"
+        }
+      ]
+    }
+  }
+}

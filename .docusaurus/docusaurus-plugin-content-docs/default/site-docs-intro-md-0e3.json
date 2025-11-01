@@ -1,0 +1,26 @@
+{
+  "id": "intro",
+  "title": "V-Clean Enterprise",
+  "description": "Professional USB/Drive Cleaning Utility for Windows - Open-source, lightweight, and powerful.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/vClean-Docs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/laughing-loop/vClean-Docs/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "slug": "/",
+    "sidebar_position": 1,
+    "sidebar_label": "Home",
+    "title": "V-Clean Enterprise"
+  },
+  "sidebar": "sidebar",
+  "next": {
+    "title": "Download",
+    "permalink": "/vClean-Docs/download"
+  }
+}

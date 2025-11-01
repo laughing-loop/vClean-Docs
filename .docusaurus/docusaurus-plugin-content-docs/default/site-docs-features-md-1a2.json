@@ -1,0 +1,28 @@
+{
+  "id": "features",
+  "title": "Features",
+  "description": "V-Clean Enterprise offers comprehensive drive cleaning and system maintenance capabilities.",
+  "source": "@site/docs/features.md",
+  "sourceDirName": ".",
+  "slug": "/features",
+  "permalink": "/vClean-Docs/features",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/laughing-loop/vClean-Docs/tree/main/docs/features.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Features"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Download",
+    "permalink": "/vClean-Docs/download"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/vClean-Docs/faq"
+  }
+}

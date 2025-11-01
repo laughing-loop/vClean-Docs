@@ -1,0 +1,28 @@
+{
+  "id": "download",
+  "title": "Download",
+  "description": "Get the latest version of V-Clean Enterprise for Windows.",
+  "source": "@site/docs/download.md",
+  "sourceDirName": ".",
+  "slug": "/download",
+  "permalink": "/vClean-Docs/download",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/laughing-loop/vClean-Docs/tree/main/docs/download.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Download"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Home",
+    "permalink": "/vClean-Docs/"
+  },
+  "next": {
+    "title": "Features",
+    "permalink": "/vClean-Docs/features"
+  }
+}

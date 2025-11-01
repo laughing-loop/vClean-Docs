@@ -1,0 +1,28 @@
+{
+  "id": "faq",
+  "title": "FAQ",
+  "description": "Common questions about V-Clean Enterprise.",
+  "source": "@site/docs/faq.md",
+  "sourceDirName": ".",
+  "slug": "/faq",
+  "permalink": "/vClean-Docs/faq",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/laughing-loop/vClean-Docs/tree/main/docs/faq.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "FAQ"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Features",
+    "permalink": "/vClean-Docs/features"
+  },
+  "next": {
+    "title": "Quick Start Guide",
+    "permalink": "/vClean-Docs/quick-start"
+  }
+}

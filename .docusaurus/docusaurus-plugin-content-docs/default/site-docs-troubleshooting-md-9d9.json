@@ -1,0 +1,24 @@
+{
+  "id": "troubleshooting",
+  "title": "Troubleshooting",
+  "description": "Solutions to common problems with V-Clean Enterprise.",
+  "source": "@site/docs/troubleshooting.md",
+  "sourceDirName": ".",
+  "slug": "/troubleshooting",
+  "permalink": "/vClean-Docs/troubleshooting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/laughing-loop/vClean-Docs/tree/main/docs/troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Troubleshooting"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Quick Start Guide",
+    "permalink": "/vClean-Docs/quick-start"
+  }
+}

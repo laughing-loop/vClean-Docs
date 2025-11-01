@@ -1,0 +1,58 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/vClean-Docs/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/vClean-Docs/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "download",
+              "path": "/vClean-Docs/download",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "faq",
+              "path": "/vClean-Docs/faq",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "features",
+              "path": "/vClean-Docs/features",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/vClean-Docs/",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "quick-start",
+              "path": "/vClean-Docs/quick-start",
+              "sidebar": "sidebar"
+            },
+            {
+              "id": "troubleshooting",
+              "path": "/vClean-Docs/troubleshooting",
+              "sidebar": "sidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "sidebar": {
+              "link": {
+                "path": "/vClean-Docs/",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

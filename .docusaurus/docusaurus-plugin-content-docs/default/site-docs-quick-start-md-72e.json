@@ -1,0 +1,28 @@
+{
+  "id": "quick-start",
+  "title": "Quick Start Guide",
+  "description": "Get started with V-Clean Enterprise in minutes.",
+  "source": "@site/docs/quick-start.md",
+  "sourceDirName": ".",
+  "slug": "/quick-start",
+  "permalink": "/vClean-Docs/quick-start",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/laughing-loop/vClean-Docs/tree/main/docs/quick-start.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Quick Start Guide"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/vClean-Docs/faq"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/vClean-Docs/troubleshooting"
+  }
+}
