@@ -31,7 +31,7 @@ The preview executable is unsigned. Windows SmartScreen commonly warns on unsign
 
 ## What should the hash be?
 
-`7dde2f39e02b487e99705a404f34013e04690c26cf5235f31d05272c1d14e764`
+`5ba2cb1912b3fa537bd95b39deba410ee762c64d2a14824f6421763486641d63`
 
 Verify it:
 

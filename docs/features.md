@@ -9,21 +9,30 @@ V-Clean Security Console is being rebuilt as a maintainable Windows endpoint uti
 
 ## Product layers
 
-<div className="vc-grid">
+<div className="vc-grid vc-grid--four">
   <div className="vc-card">
+    <div className="vc-card__head"><span className="vc-mini-icon">UI</span></div>
     <span className="vc-card__meta">UI</span>
     <h3>WPF console</h3>
     <p>Native Windows shell with overview, scan center, quarantine control, logs, settings, about, and dark/light modes.</p>
   </div>
   <div className="vc-card">
+    <div className="vc-card__head"><span className="vc-mini-icon">CT</span></div>
     <span className="vc-card__meta">Core</span>
     <h3>Shared contracts</h3>
     <p><code>Vclean.Core</code> owns scan requests, service health, quarantine records, pipe request/response DTOs, and the <code>IAgentClient</code> abstraction.</p>
   </div>
   <div className="vc-card">
+    <div className="vc-card__head"><span className="vc-mini-icon">AG</span></div>
     <span className="vc-card__meta">Agent</span>
     <h3>Local service process</h3>
     <p><code>Vclean.Agent.Service</code> hosts the named-pipe server and exposes health, scan, progress, and quarantine operations.</p>
+  </div>
+  <div className="vc-card">
+    <div className="vc-card__head"><span className="vc-mini-icon">OS</span></div>
+    <span className="vc-card__meta">Utilities</span>
+    <h3>Operations Suite</h3>
+    <p>The previous enterprise utility workflows are preserved as structured cleanup, USB repair, optimization, reporting, and safety actions.</p>
   </div>
 </div>
 
@@ -33,6 +42,7 @@ V-Clean Security Console is being rebuilt as a maintainable Windows endpoint uti
 |:--|:--|
 | Overview | Realtime status, heartbeat timestamp, quarantine count, recommended actions |
 | Scan Center | Quick, full, and custom scan actions with progress polling |
+| Operations Suite | Temporary cleanup, Recycle Bin, thumbnail cache, prefetch review, shortcut-virus cleaning, hidden USB file restore, restore point, health report |
 | Quarantine | Live list, refresh, restore, and delete actions |
 | Logs | Placeholder timeline ready for agent-backed events |
 | Settings | Protection, cloud check, and update policy controls |

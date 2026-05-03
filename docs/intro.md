@@ -8,7 +8,7 @@ title: V-Clean Security Console
 <section className="vc-hero">
   <div className="vc-hero__grid">
     <div>
-      <div className="vc-eyebrow"><span className="vc-dot"></span>Security console preview</div>
+      <div className="vc-eyebrow"><img className="vc-eyebrow__mark" src="/vClean-Docs/img/logo.png" alt="V-Clean" /><span className="vc-dot"></span>Security console preview</div>
       <h1>Clean endpoint operations, packaged for Windows.</h1>
       <p className="vc-lede">V-Clean Security Console is the next .NET 8 direction for V-Clean: a corporate Windows desktop shell with scan workflows, quarantine controls, live agent IPC, dark and light UX, and a self-contained setup executable.</p>
       <div className="vc-actions">
@@ -36,18 +36,27 @@ This release is a security-console preview. It validates the installable .NET di
 
 ## What changed
 
-<div className="vc-grid">
+<div className="vc-grid vc-grid--four">
   <div className="vc-card">
+    <div className="vc-card__head"><span className="vc-mini-icon">UX</span></div>
     <span className="vc-card__meta">Console</span>
     <h3>Corporate desktop UX</h3>
     <p>A cleaner WPF shell with dashboard, scan center, quarantine, logs, settings, about page, and dark/light mode support.</p>
   </div>
   <div className="vc-card">
+    <div className="vc-card__head"><span className="vc-mini-icon">AG</span></div>
     <span className="vc-card__meta">Agent</span>
     <h3>Live communication layer</h3>
     <p>The UI talks to the agent through a shared <code>IAgentClient</code> contract and named-pipe protocol. If the agent is not running, the UI starts the bundled agent automatically.</p>
   </div>
   <div className="vc-card">
+    <div className="vc-card__head"><span className="vc-mini-icon">OP</span></div>
+    <span className="vc-card__meta">Utilities</span>
+    <h3>Operations Suite</h3>
+    <p>Enterprise cleanup, USB repair, shortcut-virus remediation, restore-point, and reporting workflows now live inside the security console.</p>
+  </div>
+  <div className="vc-card">
+    <div className="vc-card__head"><span className="vc-mini-icon">EXE</span></div>
     <span className="vc-card__meta">Distribution</span>
     <h3>Setup executable package</h3>
     <p>Users download a ZIP, extract it, run <code>VClean-Security-Console-Setup.exe</code>, and launch from the Start Menu.</p>
@@ -81,9 +90,18 @@ This release is a security-console preview. It validates the installable .NET di
 
 ## Screenshots
 
-![V-Clean Security Console main interface](/img/screenshot-main.png)
+<div className="vc-swiper" aria-label="V-Clean screenshots">
+  <figure className="vc-slide">
+    <img src="/vClean-Docs/img/screenshot-main.png" alt="V-Clean Enterprise main interface" />
+    <figcaption>Main workspace from the enterprise utility generation.</figcaption>
+  </figure>
+  <figure className="vc-slide">
+    <img src="/vClean-Docs/img/screenshot-about.png" alt="V-Clean Enterprise about dialog" />
+    <figcaption>Publisher and product identity dialog.</figcaption>
+  </figure>
+</div>
 
-![V-Clean Enterprise about dialog](/img/screenshot-about.png)
+<div className="vc-swiper-hint">Scroll horizontally to review screenshots. Add new images as additional <code>vc-slide</code> items.</div>
 
 ## Source and ownership
 
