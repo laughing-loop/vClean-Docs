@@ -1,27 +1,23 @@
-/**
- * V-Clean Enterprise Documentation Sidebar
- */
-
 // @ts-check
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   sidebar: [
-    'intro',
-    'download',
-    'features',
-    'faq',
+    {
+      type: 'category',
+      label: 'Security Console',
+      collapsed: false,
+      items: ['intro', 'download', 'features', 'quick-start'],
+    },
     {
       type: 'html',
       value: '<hr class="sidebar-hr" />',
     },
     {
       type: 'category',
-      label: 'Documentation',
-      items: [
-        'quick-start',
-        'troubleshooting',
-      ],
+      label: 'Operations',
+      collapsed: false,
+      items: ['faq', 'troubleshooting'],
     },
   ],
 };

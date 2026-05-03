@@ -1,12 +1,11 @@
 // @ts-check
-// V-Clean Enterprise Documentation Site
 
 import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'V-Clean Enterprise',
-  tagline: 'Professional USB/Drive Cleaning Utility for Windows',
+  title: 'V-Clean Security Console',
+  tagline: 'Endpoint security console for Windows operators',
   favicon: 'img/favicon.ico',
 
   url: 'https://laughing-loop.github.io',
@@ -16,8 +15,13 @@ const config = {
   projectName: 'vClean-Docs',
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',
@@ -46,42 +50,62 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        {name: 'keywords', content: 'vclean, v-clean, v clean, vclean enterprise, vcleaner, v cleaner, vcleen, vkleen, vclene, USB cleaner, USB virus remover, USB malware scanner, pendrive cleaner, pendrive virus remover, pendrive shortcut virus, shortcut virus remover, shortcut virus cleaner, remove shortcut virus, pendrive shortcut virus remover, USB shortcut virus, flash drive shortcut virus, autorun virus remover, autorun.inf virus, autorun virus cleaner, recycler virus, recycler folder virus, drive cleaner, disk cleaner, temp file cleaner, temporary files remover, junk file cleaner, Windows cleaner, Windows optimizer, system cleaner, PC cleaner, computer cleaner, free cleaner, open source cleaner, portable cleaner, USB drive cleaner, external drive cleaner, flash drive cleaner, memory stick cleaner, thumb drive cleaner, malware removal tool, virus scanner, system optimization, disk cleanup, storage cleaner, cache cleaner, Windows 10 cleaner, Windows 11 cleaner, PowerShell utility, free USB cleaner, best USB cleaner, USB cleaning software, drive cleaning tool, system maintenance, PC optimization, computer maintenance, free system cleaner, lightweight cleaner, fast cleaner, safe cleaner, trusted cleaner, pen drive virus, pen drive cleaner, how to remove shortcut virus, remove virus from pendrive, clean pendrive virus, USB virus protection, USB security tool'},
-        {name: 'description', content: 'V-Clean Enterprise - Free USB/pendrive cleaner and shortcut virus remover for Windows 10/11. Remove shortcut virus, autorun virus, temporary files, junk files, malware. Lightweight (117 KB), portable, safe. Download now!'},
-        {name: 'author', content: 'LaughingLoop'},
-        {property: 'og:title', content: 'V-Clean Enterprise - Free USB & Drive Cleaner for Windows'},
-        {property: 'og:description', content: 'Professional USB and drive cleaning utility. Remove temp files, detect malware, optimize Windows 10/11. Free, open-source, portable (117 KB). Download now!'},
-        {property: 'og:type', content: 'website'},
-        {property: 'og:url', content: 'https://laughing-loop.github.io/vClean-Docs/'},
-        {property: 'og:image', content: 'https://laughing-loop.github.io/vClean-Docs/img/screenshot-main.png'},
-        {name: 'twitter:card', content: 'summary_large_image'},
-        {name: 'twitter:title', content: 'V-Clean Enterprise - Free USB & Drive Cleaner'},
-        {name: 'twitter:description', content: 'Free, open-source USB cleaner for Windows. Remove junk files, detect malware, optimize your PC. Only 117 KB!'},
-        {name: 'twitter:image', content: 'https://laughing-loop.github.io/vClean-Docs/img/screenshot-main.png'},
-        {name: 'robots', content: 'index, follow'},
-        {name: 'googlebot', content: 'index, follow'},
-        {name: 'bingbot', content: 'index, follow'},
-        {name: 'language', content: 'English'},
-        {name: 'revisit-after', content: '7 days'},
+        {
+          name: 'description',
+          content:
+            'V-Clean Security Console is a Windows endpoint security console preview with a .NET 8 WPF UI, named-pipe agent communication, scan workflows, quarantine controls, and a self-contained setup executable.',
+        },
+        {
+          name: 'keywords',
+          content:
+            'V-Clean, V-Clean Security Console, Windows endpoint security, .NET 8 WPF security console, named pipe agent, quarantine console, USB security, malware cleanup, open source Windows security utility',
+        },
+        { name: 'author', content: 'LaughingLoop' },
+        { property: 'og:title', content: 'V-Clean Security Console' },
+        {
+          property: 'og:description',
+          content:
+            'Installable Windows security-console preview with live agent IPC, scan center, quarantine controls, dark and light UX, and self-contained win-x64 packaging.',
+        },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://laughing-loop.github.io/vClean-Docs/' },
+        { property: 'og:image', content: 'https://laughing-loop.github.io/vClean-Docs/img/screenshot-main.png' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'V-Clean Security Console' },
+        {
+          name: 'twitter:description',
+          content:
+            'A cleaner enterprise Windows security-console preview with setup.exe distribution and live agent communication.',
+        },
+        { name: 'twitter:image', content: 'https://laughing-loop.github.io/vClean-Docs/img/screenshot-main.png' },
+        { name: 'robots', content: 'index, follow' },
       ],
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
+      announcementBar: {
+        id: 'security-console-preview',
+        content:
+          'V-Clean Security Console v3.1.0 preview is available as a self-contained Windows setup package.',
+        backgroundColor: '#0b1220',
+        textColor: '#f8fafc',
+        isCloseable: true,
+      },
       image: 'img/screenshot-main.png',
       navbar: {
-        title: 'V-Clean Enterprise',
+        title: 'V-Clean',
         logo: {
-          alt: 'V-Clean Logo',
+          alt: 'V-Clean logo',
           src: 'img/logo.png',
         },
         items: [
           {
             to: '/',
             position: 'left',
-            label: 'Home',
-            activeBaseRegex: "^/$",
+            label: 'Overview',
+            activeBaseRegex: '^/$',
           },
           {
             to: '/download',
@@ -91,30 +115,26 @@ const config = {
           {
             to: '/features',
             position: 'left',
-            label: 'Features',
+            label: 'Platform',
           },
           {
-            to: '/faq',
+            to: '/quick-start',
             position: 'left',
-            label: 'FAQ',
+            label: 'Quick Start',
           },
           {
-            type: 'dropdown',
-            label: 'Docs',
+            to: '/troubleshooting',
             position: 'left',
-            items: [
-              {
-                label: 'Quick Start',
-                to: '/quick-start',
-              },
-              {
-                label: 'Troubleshooting',
-                to: '/troubleshooting',
-              },
-            ],
+            label: 'Support',
           },
           {
-            href: 'https://github.com/laughing-loop/vClean-Utility',
+            href: 'https://github.com/laughing-loop/vClean-BundlePack/releases/tag/v3.1.0-security-console',
+            label: 'Release',
+            position: 'right',
+            className: 'navbar-release-link',
+          },
+          {
+            href: 'https://github.com/laughing-loop/vClean-BundlePack',
             className: 'github-button',
             position: 'right',
             label: 'GitHub',
@@ -122,9 +142,47 @@ const config = {
           },
         ],
       },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Product',
+            items: [
+              { label: 'Download', to: '/download' },
+              { label: 'Platform', to: '/features' },
+              { label: 'Quick Start', to: '/quick-start' },
+            ],
+          },
+          {
+            title: 'Operations',
+            items: [
+              { label: 'FAQ', to: '/faq' },
+              { label: 'Troubleshooting', to: '/troubleshooting' },
+              {
+                label: 'GitHub Issues',
+                href: 'https://github.com/laughing-loop/vClean-BundlePack/issues',
+              },
+            ],
+          },
+          {
+            title: 'Build',
+            items: [
+              {
+                label: 'Source Repository',
+                href: 'https://github.com/laughing-loop/vClean-BundlePack',
+              },
+              {
+                label: 'Latest Preview Release',
+                href: 'https://github.com/laughing-loop/vClean-BundlePack/releases/tag/v3.1.0-security-console',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright (c) ${new Date().getFullYear()} LaughingLoop. V-Clean Security Console is maintained in the open.`,
+      },
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        darkTheme: prismThemes.nightOwl,
       },
     }),
 };
