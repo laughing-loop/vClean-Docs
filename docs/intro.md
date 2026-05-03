@@ -12,7 +12,7 @@ title: V-Clean Security Console
       <h1>Clean endpoint operations, packaged for Windows.</h1>
       <p className="vc-lede">V-Clean Security Console is the next .NET 8 direction for V-Clean: a corporate Windows desktop shell with scan workflows, quarantine controls, live agent IPC, dark and light UX, and a self-contained setup executable.</p>
       <div className="vc-actions">
-        <a className="vc-button vc-button--primary" href="https://github.com/laughing-loop/vClean-BundlePack/releases/download/v3.1.0-security-console/VClean-Security-Console-win-x64.zip">Download Windows package</a>
+        <a className="vc-button vc-button--primary" href="https://github.com/laughing-loop/vClean-Utility/releases/download/v3.1.0/VClean-Security-Console-win-x64.zip">Download Windows package</a>
         <a className="vc-button vc-button--secondary" href="/vClean-Docs/quick-start">Read quick start</a>
       </div>
     </div>
@@ -73,10 +73,11 @@ This release is a security-console preview. It validates the installable .NET di
       <span className="vc-pill">Windows 10/11</span>
       <span className="vc-pill">win-x64</span>
       <span className="vc-pill">No .NET install required</span>
+      <span className="vc-pill">Public migration release</span>
       <span className="vc-pill">Unsigned preview</span>
     </div>
   </div>
-  <a className="vc-button vc-button--primary" href="https://github.com/laughing-loop/vClean-BundlePack/releases/tag/v3.1.0-security-console">Open release</a>
+  <a className="vc-button vc-button--primary" href="https://github.com/laughing-loop/vClean-Utility/releases/tag/v3.1.0">Open release</a>
 </div>
 
 ## Platform direction
@@ -105,8 +106,8 @@ This release is a security-console preview. It validates the installable .NET di
 
 ## Source and ownership
 
-V-Clean is built by LaughingLoop and maintained in the open. The new security-console package lives in the BundlePack repository:
+V-Clean is built by LaughingLoop. Public downloads and the v3.0 updater migration path are published through the public V-Clean Utility release channel:
 
-- [Source repository](https://github.com/laughing-loop/vClean-BundlePack)
-- [Latest preview release](https://github.com/laughing-loop/vClean-BundlePack/releases/tag/v3.1.0-security-console)
-- [Report an issue](https://github.com/laughing-loop/vClean-BundlePack/issues)
+- [Public release repository](https://github.com/laughing-loop/vClean-Utility)
+- [Latest preview release](https://github.com/laughing-loop/vClean-Utility/releases/tag/v3.1.0)
+- [Report an issue](https://github.com/laughing-loop/vClean-Utility/issues)

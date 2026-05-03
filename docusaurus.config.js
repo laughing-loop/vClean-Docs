@@ -128,17 +128,17 @@ const config = {
             label: 'Support',
           },
           {
-            href: 'https://github.com/laughing-loop/vClean-BundlePack/releases/tag/v3.1.0-security-console',
+            href: 'https://github.com/laughing-loop/vClean-Utility/releases/tag/v3.1.0',
             label: 'Release',
             position: 'right',
             className: 'navbar-release-link',
           },
           {
-            href: 'https://github.com/laughing-loop/vClean-BundlePack',
+            href: 'https://github.com/laughing-loop/vClean-Utility',
             className: 'github-button',
             position: 'right',
             label: 'GitHub',
-            title: 'GitHub repository',
+            title: 'Public release repository',
           },
         ],
       },
@@ -160,7 +160,7 @@ const config = {
               { label: 'Troubleshooting', to: '/troubleshooting' },
               {
                 label: 'GitHub Issues',
-                href: 'https://github.com/laughing-loop/vClean-BundlePack/issues',
+                href: 'https://github.com/laughing-loop/vClean-Utility/issues',
               },
             ],
           },
@@ -168,12 +168,12 @@ const config = {
             title: 'Build',
             items: [
               {
-                label: 'Source Repository',
-                href: 'https://github.com/laughing-loop/vClean-BundlePack',
+                label: 'Public Release Repository',
+                href: 'https://github.com/laughing-loop/vClean-Utility',
               },
               {
                 label: 'Latest Preview Release',
-                href: 'https://github.com/laughing-loop/vClean-BundlePack/releases/tag/v3.1.0-security-console',
+                href: 'https://github.com/laughing-loop/vClean-Utility/releases/tag/v3.1.0',
               },
             ],
           },

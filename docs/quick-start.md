@@ -11,7 +11,7 @@ This guide gets the current Windows preview installed and running.
 
 Download the release ZIP:
 
-[VClean-Security-Console-win-x64.zip](https://github.com/laughing-loop/vClean-BundlePack/releases/download/v3.1.0-security-console/VClean-Security-Console-win-x64.zip)
+[VClean-Security-Console-win-x64.zip](https://github.com/laughing-loop/vClean-Utility/releases/download/v3.1.0/VClean-Security-Console-win-x64.zip)
 
 ## 2. Extract
 
@@ -105,6 +105,8 @@ Uninstall:
 ```
 
 ## Build from source
+
+Source builds are a maintainer workflow during the preview. Public users should use the signed release channel when it is available; for now, use the ZIP package above.
 
 ```powershell
 git clone https://github.com/laughing-loop/vClean-BundlePack.git

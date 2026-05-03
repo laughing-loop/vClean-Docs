@@ -9,15 +9,16 @@ Install the current V-Clean Security Console preview for Windows.
 
 <div className="vc-release-card">
   <div>
-    <h2>v3.1.0-security-console</h2>
-    <p>Self-contained Windows x64 ZIP with a setup executable, WPF app, and bundled agent.</p>
+    <h2>v3.1.0</h2>
+    <p>Public migration release with a self-contained Windows x64 ZIP, setup executable, WPF app, and bundled agent.</p>
     <div className="vc-pill-row">
       <span className="vc-pill">Preview release</span>
+      <span className="vc-pill">Public updater channel</span>
       <span className="vc-pill">125 MB ZIP</span>
       <span className="vc-pill">Windows 10/11 x64</span>
     </div>
   </div>
-  <a className="vc-button vc-button--primary" href="https://github.com/laughing-loop/vClean-BundlePack/releases/download/v3.1.0-security-console/VClean-Security-Console-win-x64.zip">Download ZIP</a>
+  <a className="vc-button vc-button--primary" href="https://github.com/laughing-loop/vClean-Utility/releases/download/v3.1.0/VClean-Security-Console-win-x64.zip">Download ZIP</a>
 </div>
 
 :::warning Unsigned preview build
@@ -63,7 +64,7 @@ For an all-users install, run PowerShell as Administrator:
 
 Official release asset:
 
-[VClean-Security-Console-win-x64.zip](https://github.com/laughing-loop/vClean-BundlePack/releases/download/v3.1.0-security-console/VClean-Security-Console-win-x64.zip)
+[VClean-Security-Console-win-x64.zip](https://github.com/laughing-loop/vClean-Utility/releases/download/v3.1.0/VClean-Security-Console-win-x64.zip)
 
 SHA256:
 
@@ -103,6 +104,6 @@ Use the Start Menu shortcut named **Uninstall V-Clean Security Console**, or run
 
 ## Release links
 
-- [Release page](https://github.com/laughing-loop/vClean-BundlePack/releases/tag/v3.1.0-security-console)
-- [Source repository](https://github.com/laughing-loop/vClean-BundlePack)
-- [Report a release issue](https://github.com/laughing-loop/vClean-BundlePack/issues)
+- [Public release page](https://github.com/laughing-loop/vClean-Utility/releases/tag/v3.1.0)
+- [Public release repository](https://github.com/laughing-loop/vClean-Utility)
+- [Report a release issue](https://github.com/laughing-loop/vClean-Utility/issues)

@@ -11,7 +11,7 @@ No. The new V-Clean Security Console is the .NET 8 Windows direction. It uses a 
 
 The older utility pages referenced a standalone launcher; the current preview release is:
 
-[VClean-Security-Console-win-x64.zip](https://github.com/laughing-loop/vClean-BundlePack/releases/download/v3.1.0-security-console/VClean-Security-Console-win-x64.zip)
+[VClean-Security-Console-win-x64.zip](https://github.com/laughing-loop/vClean-Utility/releases/download/v3.1.0/VClean-Security-Console-win-x64.zip)
 
 ## Is it production-ready antivirus software?
 
@@ -90,9 +90,9 @@ Not yet. The current release is ZIP plus setup executable. MSI/MSIX packaging is
 
 ## Where is the source code?
 
-The app source is here:
+The public release and legacy updater migration channel are here:
 
-[https://github.com/laughing-loop/vClean-BundlePack](https://github.com/laughing-loop/vClean-BundlePack)
+[https://github.com/laughing-loop/vClean-Utility](https://github.com/laughing-loop/vClean-Utility)
 
 ## How do I report a problem?
 
@@ -104,4 +104,4 @@ Open an issue and include:
 - Exact error message or screenshot
 - Steps to reproduce
 
-[Report an issue](https://github.com/laughing-loop/vClean-BundlePack/issues)
+[Report an issue](https://github.com/laughing-loop/vClean-Utility/issues)

@@ -138,10 +138,10 @@ powershell -ExecutionPolicy Bypass -File installer\dotnet\Build-Distribution.ps1
 Include:
 
 - Windows edition and version
-- Release tag: `v3.1.0-security-console`
+- Release tag: `v3.1.0`
 - Install scope: current user or all users
 - Transport badge shown in the UI
 - Event Viewer error text if the UI crashes
 - Agent console output if the agent fails
 
-[Open a GitHub issue](https://github.com/laughing-loop/vClean-BundlePack/issues)
+[Open a GitHub issue](https://github.com/laughing-loop/vClean-Utility/issues)
